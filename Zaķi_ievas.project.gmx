@@ -21,6 +21,9 @@
     <sprite>sprites\spr_za_char</sprite>
     <sprite>sprites\spr_cone</sprite>
     <sprite>sprites\spr_traffic_light</sprite>
+    <sprite>sprites\spr_balloon_y</sprite>
+    <sprite>sprites\spr_balloon_g</sprite>
+    <sprite>sprites\spr_balloon_r</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="ProperBackgrounds">
@@ -34,6 +37,8 @@
       <background>background\migla</background>
       <background>background\foreground</background>
       <background>background\nightSky</background>
+      <background>background\sunset</background>
+      <background>background\vintage_zaale</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
@@ -48,9 +53,14 @@
     <object>objects\obj_puuce</object>
     <object>objects\obj_za_char</object>
     <object>objects\obj_cone</object>
+    <object>objects\obj_traffic_light</object>
+    <object>objects\obj_balloon_y</object>
+    <object>objects\obj_balloon_g</object>
+    <object>objects\obj_balloon_r</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
+    <room>rooms\rm_game</room>
+    <room>rooms\rm_balloon_garden</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>
