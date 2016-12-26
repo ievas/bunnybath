@@ -12,6 +12,8 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_buss</sprite>
+    <sprite>sprites\spr_bus_white_za</sprite>
+    <sprite>sprites\spr_bus_empty</sprite>
     <sprites name="Egles">
       <sprite>sprites\spr_egleNorm</sprite>
       <sprite>sprites\spr_egleResna</sprite>
@@ -21,9 +23,11 @@
     <sprite>sprites\spr_za_char</sprite>
     <sprite>sprites\spr_cone</sprite>
     <sprite>sprites\spr_traffic_light</sprite>
-    <sprite>sprites\spr_balloon_y</sprite>
-    <sprite>sprites\spr_balloon_g</sprite>
-    <sprite>sprites\spr_balloon_r</sprite>
+    <sprites name="balloons">
+      <sprite>sprites\spr_balloon_y</sprite>
+      <sprite>sprites\spr_balloon_g</sprite>
+      <sprite>sprites\spr_balloon_r</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="ProperBackgrounds">
